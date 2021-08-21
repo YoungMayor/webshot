@@ -4,7 +4,9 @@
     "description": "An NPM package to screenshot the contents of an HTML element and share it as an image or download it",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "doc": "./node_modules/.bin/jsdoc -c jsdoc.json",
+        "doc-index": "./node_modules/.bin/jsdoc index.js"
     },
     "author": "Meyoron Aghogho <youngmayor08@gmail.com> (https://youngmayor.dev)",
     "license": "ISC",
@@ -14,5 +16,8 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/YoungMayor/webshot.git"
+    },
+    "devDependencies": {
+        "jsdoc": "^3.6.7"
     }
 }
