@@ -1,14 +1,18 @@
 {
-    "name": "@youngmayor/screenshot-share",
+    "name": "@youngmayor/webshot",
     "version": "1.0.0",
     "description": "An NPM package to screenshot the contents of an HTML element and share it as an image or download it",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "youngmayor",
+    "author": "Meyoron Aghogho <youngmayor08@gmail.com> (https://youngmayor.dev)",
     "license": "ISC",
     "dependencies": {
         "dom-to-image": "^2.6.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/YoungMayor/webshot.git"
     }
 }
