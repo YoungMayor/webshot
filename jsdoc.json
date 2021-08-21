@@ -1,0 +1,28 @@
+{
+    "source": {
+        "include": [
+            "./"
+        ],
+        "includePattern": ".js$",
+        "excludePattern": "(node_modules/|docs|templates)"
+    },
+    "plugins": [
+        "plugins/markdown"
+    ],
+    "templates": {
+        "cleverLinks": true,
+        "monospaceLinks": true,
+        "default": {
+            "staticFiles": {
+                "include": [
+                    "./static"
+                ]
+            },
+            "layoutFile": "./templates/default/tmpl/layout.tmpl"
+        }
+    },
+    "opts": {
+        "recurse": true,
+        "destination": "./docs/"
+    }
+}
