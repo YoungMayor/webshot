@@ -1,11 +1,14 @@
 {
-  "name": "screenshot-share",
-  "version": "1.0.0",
-  "description": "An NPM package to screenshot the contents of a div and share it as an image or download it",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "youngmayor",
-  "license": "ISC"
+    "name": "@youngmayor/screenshot-share",
+    "version": "1.0.0",
+    "description": "An NPM package to screenshot the contents of an HTML element and share it as an image or download it",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "youngmayor",
+    "license": "ISC",
+    "dependencies": {
+        "dom-to-image": "^2.6.0"
+    }
 }
